@@ -1,0 +1,125 @@
+/* Page Background */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(to bottom, #0f172a, #1e293b, #334155);
+    color: white;
+}
+
+/* Navigation */
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navbar a {
+    color: #f8fafc;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #fbbf24;
+}
+
+/* Main Content */
+.main-content {
+    padding: 30px;
+}
+
+/* Hero Section */
+.home-section {
+    text-align: center;
+}
+
+.home-section h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 20px rgba(255,255,255,0.4);
+}
+
+.home-section img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Headings */
+h2, h3, h4 {
+    color: #fbbf24;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.8;
+    color: #e2e8f0;
+}
+
+/* Portfolio Gallery */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.portfolio-item {
+    width: 320px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    transition: transform 0.4s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-item h3 {
+    padding-top: 10px;
+}
+
+.portfolio-item p {
+    padding: 0 15px 15px;
+    text-align: center;
+}
+
+/* Footer */
+#footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #94a3b8;
+}
